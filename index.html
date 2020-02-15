@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+    <div id="pontuacao" style="display: none">Score: </div>
+    
+    <div id="main-menu" class="background-image background size" style="display: block">
+        <a href="#" id="start-button" class="button button-animation">Start Game</a>
+    </div>
+    
+    <canvas id="stage" class="background" width="600" height="600" style="display: none"></canvas>
+
+    <div id="game-over" class="background-image-game-over background size" style="display: none">
+        <h2 class="final-score">Final Score: </h2>
+        <a href="#" id="restart" class="button button-animation">Restart Game</a>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

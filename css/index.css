@@ -1,0 +1,68 @@
+#pontuacao{
+	background-color: black;
+	color: white;
+	width: 600px;
+}
+
+.size{
+	height: 600px;
+	width: 600px;
+}
+
+.background{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px 600px;
+}
+
+.background-image{
+	background-image: url(../assets/snake-background.png);
+}
+
+.background-image-game-over{
+	background-image: url(../assets/game-over.jpg);
+}
+
+#stage{
+	background-image: url(../assets/snake-game-background.png);
+}
+
+.button{
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	display: block;
+	background-color: #adbd6a;
+	border: 2px solid;
+	border-radius: 20px;
+	top: 50%;
+	left: 9%;
+	padding: 10px;
+}
+
+.button:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.button-animation{
+	animation-name: startAnimation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes startAnimation{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0.7;
+	}
+}
+
+.final-score{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	padding: 15px 0 0 15px; 
+}
